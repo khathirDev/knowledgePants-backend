@@ -1,0 +1,41 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# AWS
+boto3
+botocore
+
+# Pinecone
+pinecone-client
+
+# LangChain
+langchain
+langchain-community
+langchain-groq
+langchain-google-genai
+langchain-pinecone
+
+# Document processing
+PyPDF2
+pypdf
+
+# Vector embeddings
+google-generativeai
+faiss-cpu
+
+# Utilities
+python-dotenv
+numpy
+pandas
+
+# Logging and monitoring
+structlog
+
+# Development
+pytest
+pytest-asyncio
+black
+flake8

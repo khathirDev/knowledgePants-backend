@@ -1,0 +1,12 @@
+# render.yaml
+services:
+  - type: web
+    name: knowledgePants
+    runtime: python
+    buildCommand: ""
+    startCommand: uvicorn app:app --host=0.0.0.0 --port=10000
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+    plan: free
+    autoDeploy: true
